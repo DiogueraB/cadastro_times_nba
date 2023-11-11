@@ -13,7 +13,7 @@ class BD:
 
     def criarTabelaTimes(self):
         self.cursor.execute("""
-            CREATE TABLE IF NOT EXISTS filmes(id INTEGER PRIMARY KEY AUTOINCREMENT,
+            CREATE TABLE IF NOT EXISTS times(id INTEGER PRIMARY KEY AUTOINCREMENT,
             nome TEXT NOT NULL, 
             fundacao TEXT NOT NULL, 
             fundador TEXT NULL,
