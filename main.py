@@ -12,10 +12,14 @@ while opcao != 0:
     opcao = interface.selecionaOpcao([1, 2, 0])
     interface.limpatela()
 
+    # Tela de Cadastro de Times
     if opcao == 1:
         interface.mostraCadastroTimes()
         opcao = ""
         interface.limpatela()
 
+    # Tela de Lista de Times
     if opcao == 2:
-        pass
+        interface.mostraListaTimes()
+        opcao = ""
+        interface.limpatela() 
